@@ -1,0 +1,17 @@
+sticky side bar.
+.sidebaar{
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    overflow-X:hidden;
+    
+}
+{% comment %} 
+action onthe blog page 
+create -add blog post
+read - preview
+update - edit
+delete - delete
+
+ {% endcomment %}

@@ -1,0 +1,115 @@
+.aside {
+  width: 20%;
+  height: 100vh;
+  background-color: #212529;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-X: hidden;
+}
+
+.aside h2 {
+  color: #fff;
+}
+
+.aside hr {
+  color: white;
+}
+
+.aside .list-group-item {
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  border: none;
+  background-color: #212529;
+}
+
+.aside i {
+  color: #6f42c1;
+}
+
+.navigation {
+  margin-left: 20%;
+}
+
+.navigation .nav img.pic {
+  border-radius: 50%;
+  height: 5vh;
+  width: 5vh;
+  margin-left: 20px;
+}
+
+.navigation .nav a {
+  font-size: 20px;
+  color: #212529;
+}
+
+.navigation .dropdown {
+  font-size: 15px;
+}
+
+.navigation .dropdown-menu {
+  margin-top: 30px;
+}
+
+.navigation a.dropdown-item {
+  font-size: 15px;
+}
+
+.main {
+  background-color: #f1f1f1;
+  margin-left: 20%;
+}
+
+.main .dashboard h3 {
+  font-family: serif;
+  font-size: 20px;
+}
+
+.main .display .card {
+  border: none;
+  border-bottom: 5px solid #6f42c1;
+}
+
+.main .display i {
+  font-size: 30px;
+  color: white;
+  background-color: #6f42c1;
+  border-radius: 5px;
+  padding: 10px;
+  height: 60px;
+}
+
+.main .display p.text-muted {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.main .display p.fw-bold {
+  font-size: 25px;
+}
+
+.main .display a {
+  color: #6f42c1;
+  text-decoration: none;
+}
+
+.main .display a:hover {
+  text-decoration: none;
+  color: #6f42c1;
+}
+
+.main .blogs {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.main tbody td#action-tooltip {
+  letter-spacing: 30px;
+}
+
+.main tbody td#action-tooltip a {
+  white-space: nowrap;
+}
+/*# sourceMappingURL=style.css.map */

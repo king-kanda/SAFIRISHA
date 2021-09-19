@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFIRISHA</title>
+    <link rel="stylesheet" href="vendor/bootstrap-5.0.1-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assests/style.css">
+</head>
+<style>
+ 
+</style>
+<body>
+    <section class="quote  mb-5">
+       
+        <nav class="navbar navbar-expand-lg bg-light  fixed-top ">
+            <div class="container">
+            <a href="#" class="navbar-brand text-bold">
+                SAFIRISHA
+            </a>
+            <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+                <span class="fa fa-bars"></span>
+            </button>
+                <div class="collapse  text-center navbar-collapse ml-auto justify-content-end" id="navbar-menu">
+                    <ul class="navbar-nav text-bold">
+                        <ll class="navbar-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </ll>
+                        <ll class="navbar-item">
+                            <a href="about.html" class="nav-link">About Us</a>
+                        </ll>
+                        <ll class="navbar-item">
+                            <a href="services.html" class="nav-link">Our Services</a>
+                        </ll>
+                        <ll class="navbar-item">
+                            <a href="press.html" class="nav-link">Press</a>
+                        </ll>
+                        <ll class="navbar-item">
+                            <a href="#contact-us" class="nav-link">Contact Us</a>
+                        </ll>
+                        <ll class="navbar-item">
+                            <a href="quote.html" class="nav-link btn btn-primary text-light">Get Quote</a>
+                        </ll>
+                    </ul>
+                </div>
+             </div>
+            </nav>
+    </section>
+    <section class="p-sm-5 p-3 mb-3 qoute-form">
+       <div class="container">
+            <h4 class="fw-bold">
+                Get Quote
+            </h4>
+            <div class="text-center">
+                <!-- <div class="error alert alert-danger alert-dismissiblefade" role="alert" id="err">
+                    <i class="fa fa-exclamation text-danger"></i><span id="err"> error </span>
+                    <span class="btn-close .fade" type="button" aria-label="Close" data-bs-dismiss="alert" style="font-size: 10px;"> </span>
+
+                </div> -->
+            </div>
+            <form action="mailer/send.php" class="form-group p-4 mb-5" method="POST" novalidate>
+                <h5 class="display-8">Personal Information</h5>
+                <label for="name">Your Name</label>
+                <br>
+                <input type="text" class="form-control" placeholder="Enter Your Name" name="U_name" id="name">
+                <span class="text-danger d-none" id="err">Please enter your name</span>
+                <div class="row py-3">
+                    <div class="col-sm-6 ">
+                        <label for="email">Your Email </label>
+                        <input type="email" name="email" id="email" class="form-control">
+                       
+                    </div>
+                    <br>
+                    <div class="col-sm-6">
+                        <label for="email">Your Phone Number </label>
+                        <input type="tel" name="phone" id="phone" class="form-control">
+                       
+                    </div>
+                </div>
+
+                <div class="freight-info py-4">
+                    <h5 class="display-8">Freight Information</h5>
+                    <div class="row py-3">
+                        <div class="col-sm-6">
+                            <label for="email">Pick up Point </label>
+                            <input type="text" name="pickup"  class="form-control" value="Pickup office near me">
+                            
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="email">Destination </label>
+                            <input type="tel" name="dropzone" id="dst" class="form-control">
+                           
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-4">
+                            <label for="good">Type of goods</label>
+                            <input type="text" name="typeofgood" id="goods" class="form-control">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="good">Weight of Good</label>
+                            <select name="kgs" id="kgs" class="form-control">
+                                <option value="weight" class="form-control">weigh on arrival</option>
+                                <option value="1kg-3kg" class="form-control">1kg-3kg</option>
+                                <option value="3kg-6kg" class="form-control">3kg-6kg</option>
+                                <option value="6kg-9kg" class="form-control">6kg-9kg</option>
+                                <option value="9kg-10kg" class="form-control">9kg-10kg</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="good">Method of transist</label>
+                            <select name="kgs" id="kgs" class="form-control">
+                                <option value="available" class="form-control">Choose for me</option>
+                                <option value="road" class="form-control">Road</option>
+                                <option value="sea" class="form-control">Sea</option>
+                                <option value="air" class="form-control">Air freight</option>
+                                <option value="mail" class="form-control">Mail</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="qtbtn text-center p-4">
+                    <button type="submit" class="btn btn-primary" id="gen_q">
+                        Generate Quote
+                    </button>
+                </div>
+
+            </form>
+       </div>
+    </section>
+
+    
+</body>
+<script src="assests/scripts/qoutes.js"></script>
+<script src="vendor/bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
+<footer class="footer bg-dark p-2 text-light">
+   <div class="container">
+    <div class="fr p-5 row">
+        <div class="col-sm-3">
+            <h3 class="fw-bold">
+                SAFIRISHA
+            </h3>
+        </div>
+        <div class="col-sm-3">
+            <ul class="navbar-nav">
+                <li class="footer-item">
+                  <a href="index.html" class="nav-link">  Home</a>
+                </li>
+                <li class="footer-item">
+                  <a href="about.html" class="nav-link">  About us</a>
+                </li>
+                <li class="footer-item">
+                   <a href="services.html" class="nav-link"> Services</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#" class="nav-link"> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <ul class="navbar-nav">
+                <li class="footer-item">
+                  <a href="careers.html" class="nav-link">  Careers</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="nav-link">  Terms of use</a>
+                </li>
+                <li class="footer-item">
+                   <a href="#" class="nav-link"> Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <h3 class="fw-bold">
+                SAFIRISHA
+            </h3>
+        </div>
+    </div>
+   </div>
+   <hr>
+   <div class="text-center">
+       <span class="text-muted">copyright okanda2021</span>
+   </div>
+</footer>
+</html>

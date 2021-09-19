@@ -1,0 +1,478 @@
+@charset "UTF-8";
+@media (min-width: 768px) {
+  .package .email-input {
+    width: 50%;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+.navigation {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.644)), to(rgba(255, 255, 255, 0))), url("../img/pexels-quintin-gellar-2199293.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.644) 0%, rgba(255, 255, 255, 0) 100%), url("../img/pexels-quintin-gellar-2199293.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navigation h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation .heading-text {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .navigation {
+    height: 90vh;
+  }
+  .navigation h1 {
+    font-size: 4.5rem;
+  }
+}
+
+.stat .stats {
+  font-size: 30px;
+  color: #f48120;
+}
+
+.abt-sec .sec1 .sec-title {
+  padding-top: 100px;
+  font-size: 35px;
+  color: #f48120;
+  font-family: cursive;
+}
+
+.abt-sec .sec2 span {
+  color: #f48120;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.abt-sec .cont-text {
+  color: grey;
+}
+
+.services .s-header {
+  text-decoration: underline;
+}
+
+.services .card {
+  border: none;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+}
+
+.services .card i {
+  font-size: 50px;
+  color: #f47f20;
+}
+
+.services .card .card-text {
+  color: gray;
+}
+
+.tsmt hr.line-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 5px solid #f47f20;
+  width: 50%;
+}
+
+.tsmt .card {
+  border: none;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.11);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.11);
+}
+
+.tsmt .card .tsmt-card-img {
+  height: 15vh;
+  border-radius: 50%;
+}
+
+.tsmt .card .tsmt-text {
+  font-size: 13px;
+  color: gray;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: #f48120;
+}
+
+.about-navigation {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 40vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.644)), to(rgba(255, 255, 255, 0))), url("../img/pexels-samuel-wölfl-1427541.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.644) 0%, rgba(255, 255, 255, 0) 100%), url("../img/pexels-samuel-wölfl-1427541.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-navigation h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-navigation .heading-text {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .about-navigation {
+    height: 60vh;
+  }
+  .about-navigation h1 {
+    font-size: 30vh;
+  }
+}
+
+.about-navigation .nav-cont .nav-text {
+  width: 60%;
+}
+
+.stories {
+  color: gray;
+}
+
+.stories h2 {
+  text-decoration: underline;
+  color: #424242;
+}
+
+.stories .v-img {
+  height: 40vh;
+  width: auto;
+}
+
+.stories p {
+  width: 90%;
+}
+
+@media (max-width: 486px) {
+  .navigation {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 45vh;
+    background: -webkit-gradient(linear, left top, right top, from(black), to(rgba(255, 255, 255, 0))), url("../img/pexels-quintin-gellar-2199293.jpg");
+    background: linear-gradient(90deg, black 0%, rgba(255, 255, 255, 0) 100%), url("../img/pexels-quintin-gellar-2199293.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navigation h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navigation .heading-text {
+    color: white;
+    font-size: 15px;
+  }
+  .stat .stats {
+    font-size: 30px;
+    color: #f48120;
+  }
+  .abt-sec .sec1 .sec-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #f48120;
+    font-family: cursive;
+  }
+  .abt-sec .sec2 span {
+    color: #f48120;
+    font-family: fantasy;
+    font-size: 25px;
+  }
+  .abt-sec .cont-text {
+    color: grey;
+  }
+  .services .s-header {
+    text-decoration: underline;
+  }
+  .services .card {
+    border: none;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+  }
+  .services .card .card-text {
+    color: gray;
+  }
+  .tsmt hr.line-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 5px solid #f47f20;
+    width: 60%;
+  }
+  .tsmt .card {
+    border: none;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.11);
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.11);
+  }
+  .tsmt .card .tsmt-card-img {
+    height: 10vh;
+    border-radius: 50%;
+  }
+  .tsmt .card .tsmt-text {
+    font-size: 13px;
+    color: gray;
+  }
+  .package .pkg-btn {
+    border: none;
+    border-radius: 50%;
+  }
+  .footer a {
+    color: white;
+  }
+  .footer a:hover {
+    color: #f48120;
+  }
+  .about-navigation {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 30vh;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.644)), to(rgba(255, 255, 255, 0))), url("../img/pexels-samuel-wölfl-1427541.jpg");
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.644) 0%, rgba(255, 255, 255, 0) 100%), url("../img/pexels-samuel-wölfl-1427541.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-navigation h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .about-navigation p {
+    color: white;
+    font-size: 12px;
+  }
+  .about-navigation .nav-cont .nav-text {
+    width: 100%;
+  }
+  .stories h2 {
+    text-decoration: underline;
+  }
+  .stories .v-img {
+    height: 25vh;
+    width: auto;
+  }
+  .stories p {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+.realeses img {
+  height: 25vh;
+  width: auto;
+}
+
+.realeses a {
+  text-decoration: none;
+}
+
+.realeses a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 30vh;
+    background: -webkit-gradient(linear, left top, right top, from(black), to(rgba(255, 255, 255, 0))), url("../img/pexels-quintin-gellar-2199293.jpg");
+    background: linear-gradient(90deg, black 0%, rgba(255, 255, 255, 0) 100%), url("../img/pexels-quintin-gellar-2199293.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navigation h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navigation .heading-text {
+    color: white;
+    font-size: 20px;
+  }
+  .stat .stats {
+    font-size: 30px;
+    color: #f48120;
+  }
+  .abt-sec .sec1 .sec-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #f48120;
+    font-family: cursive;
+  }
+  .abt-sec .sec2 span {
+    color: #f48120;
+    font-family: fantasy;
+    font-size: 25px;
+  }
+  .abt-sec .cont-text {
+    color: grey;
+  }
+  .services .s-header {
+    text-decoration: underline;
+  }
+  .services .card {
+    border: none;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+  }
+  .services .card .card-text {
+    color: gray;
+  }
+  .tsmt hr.line-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 5px solid #f47f20;
+    width: 60%;
+  }
+  .tsmt .card {
+    border: none;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.11);
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.11);
+  }
+  .tsmt .card .tsmt-card-img {
+    height: 5vh;
+    border-radius: 50%;
+  }
+  .tsmt .card .tsmt-text {
+    padding: 0;
+    font-size: 15px;
+    color: gray;
+  }
+  .package .pkg-btn {
+    border: none;
+    border-radius: 50%;
+  }
+  .footer a {
+    color: white;
+  }
+  .footer a:hover {
+    color: #f48120;
+  }
+  .about-navigation {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 30vh;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.644)), to(rgba(255, 255, 255, 0))), url("../img/pexels-samuel-wölfl-1427541.jpg");
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.644) 0%, rgba(255, 255, 255, 0) 100%), url("../img/pexels-samuel-wölfl-1427541.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-navigation h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .about-navigation p {
+    color: white;
+    font-size: 20px;
+  }
+  .about-navigation .nav-cont .nav-text {
+    width: 80%;
+  }
+  .stories h2 {
+    text-decoration: underline;
+  }
+  .stories .v-img {
+    padding-top: 30px;
+    height: 25vh;
+    width: auto;
+  }
+  .stories p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .realeses img {
+    height: 30vh;
+    width: auto;
+  }
+  .realeses .p-text {
+    font-size: 15px;
+  }
+  .realeses a {
+    text-decoration: none;
+  }
+  .realeses a:hover {
+    text-decoration: none;
+    color: purple;
+  }
+}
+/*# sourceMappingURL=style.css.map */
